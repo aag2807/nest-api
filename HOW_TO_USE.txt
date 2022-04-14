@@ -1,0 +1,11 @@
+Runs automatically in localhost:3000
+
+swagger endpoint is http://localhost:3000/api/
+
+to run migrations on the sqlite db, run the command:
+npm run type -- migration:run 
+
+to create a new migration, run the command:
+npm run type -- migration:generate -n {name of the migration}
+
+the endpoints are organized by their respective controller on swagger.
